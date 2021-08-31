@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[anime.js](https://github.com/juliangarnier/anime) を rails で動かすサンプルです。
 
-Things you may want to cover:
+https://teratail.com/questions/356938
 
-* Ruby version
+## 動作確認
 
-* System dependencies
+* このリポジトリを git clone する
+* `rails webpacker:install` を実行する
+* `bundle exec rails s -b 0.0.0.0` で rails を起動する
+* http://localhost:3000/welcome/index にブラウザでアクセスする
 
-* Configuration
+## 参考資料
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* https://railsguides.jp/webpacker.html
